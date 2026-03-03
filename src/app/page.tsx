@@ -75,7 +75,7 @@ export default function CardsGenPage() {
       console.log('📡 [前端] 向API发送请求...')
       
       // const response = await fetch('/api/generate-cards', {
-      const response = await fetch('/api/test-claude-code', {
+      const response = await fetch('/api/generate-cards', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
